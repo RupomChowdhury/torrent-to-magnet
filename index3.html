@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Convert torrent files to magnet URIs using Javascript" />
+	<meta name="keywords" content="torrent,magnet,javascript,convert,online,sha1,bencode,base32" />
+	<meta name="author" content="rupomchowdhury" />
+	<title>Torrent to Magnet</title>
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="src/t2m.loader.js"></script>
+</head>
+<body>
+
+
+<div class="header_bar">
+	<div class="main main_no_overflow header">
+
+		<table class="header_table"><tbody>
+			<tr>
+				<td class="header_table_cell">
+					<div class="header_table_name">
+						<a class="header_table_name_user link_external link_author light_underline" href="https://rupomchowdhury.github.io/"><span>rupomchowdhury</span></a><span class="header_table_name_separator">/</span><a href="" class="header_table_name_title link_external link_title light_underline"><span>t2m</span></a>
+					</div>
+				</td>
+				<td class="header_table_cell">
+					<div class="header_table_separator"></div>
+				</td>
+				<td class="header_table_cell header_table_cell_full">
+					<div class="header_table_description">
+						<div class="header_table_description_name">Torrent to Magnet</div>
+						<div class="header_table_description_body">Javascript implementation of magnet URI conversion</div>
+					</div>
+				</td>
+				<td class="header_table_cell">
+					<a class="header_table_view_on_github link_external link_view_on_github light_nohover_color_hover" href="https://github.com/rupomchowdhury/t2m">
+						<div class="header_table_view_on_github_line1">view on</div>
+						<div class="header_table_view_on_github_line2">github</div>
+					</a>
+				</td>
+			</tr>
+		</tbody></table>
+
+	</div>
+</div>
+<div class="main body">
+
+	<h1 id="converter"><span class="section_id" id="converter.exclusive"><span class="hardlink_text">Converter<a class="hardlink" href="#converter"></a></span><label class="converter_exclusive_mode script_enabled"><input type="checkbox" class="converter_exclusive_mode_check checkbox" /><span class="converter_exclusive_mode_text"></span></label></span></h1>
+	<p>
+		<div class="script_disabled script_visible">
+			Javascript is required to use the inline converter.
+		</div>
+		<div class="script_enabled">
+			<div class="converter">
+				<div class="converter_container">
+					<div class="converter_table">
+
+						<div class="converter_cell converter_cell_left">
+							<div class="converter_svg_container">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" class="converter_svg_graphic">
+									<polygon points="0.7,0 0.7,0.5 1,0.5 0.5,1 0,0.5 0.3,0.5 0.3,0" class="converter_svg_graphic_poly"></polygon>
+								</svg>
+							</div>
+						</div>
+						<div class="converter_cell converter_cell_right">
+							<div class="converter_info">
+								<div class="converter_info_line1">Drop <a class="link_external light_underline link_stop_propagation" href="https://en.wikipedia.org/wiki/Torrent_file" target="_blank"><span>.torrent</span></a> files here</div>
+								<div class="converter_info_line2">to convert them to <a class="link_external light_underline link_stop_propagation" href="https://en.wikipedia.org/wiki/Magnet_uri" target="_blank"><span>magnet URI</span></a>s</div>
+								<div class="converter_info_line3">Or click to open the file browser</div>
+								<input type="file" class="converter_files_input" multiple />
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</p>
+
+	<div class="converted"></div>
+
+	<div class="non_exclusive">
+
+		
+	</div>
+
+</div>
+
+
+</body>
+</html>
