@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	border: none;
 	color: #111111;
-	background-color: #ffffff;
+	background-color: #000000;
 	font-family: Arial;
 	font-size: 16px;
 	overflow-x: hidden;
@@ -125,7 +125,7 @@ code.nowrap {
 .codeblock {
 	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	display: block;
-	background: #000000;
+	background: #f3f3f3;
 	border: 1px solid #e5e5e5;
 	overflow-x: auto;
 	overflow-y: hidden;
