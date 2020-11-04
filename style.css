@@ -3,13 +3,14 @@ body {
 	margin: 0;
 	border: none;
 	color: #111111;
-	background-color: #000000;
+	background-background-image: url(header.jpg) ;
 	font-family: Arial;
 	font-size: 16px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	text-align: center;
 }
+
 
 table,tbody,tr,td {
 	margin: 0;
