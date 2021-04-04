@@ -1,1 +1,1 @@
-[T2M](https://rupomchowdhury.github.io/t2m/)
+[Torrent2Magnet](https://t2m.rupom.live/)
